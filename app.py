@@ -6,12 +6,12 @@ corredores = [{'nome':'Johnny Joestar', 'categoria':'Velocidade', 'ativo':True},
               {'nome':'Sandman', 'categoria':'Resistência', 'ativo':True}]
 
 def exibir_subtitulo(texto):
-    os.system('clear')
+    os.system('cls')
     print(texto)
     print('')
 
 def retorna_menu_principal():
-    input('\nDigite uma tecla para voltar ao menu principal')
+    input('\n Digite uma tecla para voltar ao menu principal')
     main()
 
 def mostra_titulo():
@@ -22,10 +22,10 @@ def mostra_titulo():
     ''')
 
 def mostra_escolhas():
-    print('1. Cadastro    de corredores')
+    print('1. Cadastro de corredores')
     print('2. Listar corredores')
     print('3. Ativar corredor')
-    print('4. Sair da aplicação')
+    print('4. Sair')
 
 def escolhe_opcao():
     try:
@@ -67,7 +67,7 @@ def mostrar_corredores():
     retorna_menu_principal()
 
 def finalizar_programa():
-    os.system('clear')
+    os.system('cls')
     print('Finalizando programa')
 
 def opcao_invalida():
