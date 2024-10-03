@@ -1,9 +1,9 @@
 import os
 
-corredores = [{'nome':'Johnny Joestar', 'categoria':'Velocidade', 'ativo':True},
-              {'nome':'Gyro Zeppeli', 'categoria':'Técnica', 'ativo':True},
-              {'nome':'Diego Brando', 'categoria':'Força', 'ativo':False},
-              {'nome':'Sandman', 'categoria':'Resistência', 'ativo':True}]
+corredores = [{'nome':'Johnny Joestar', 'categoria':'Cavalo', 'ativo':True},
+              {'nome':'Gyro Zeppeli', 'categoria':'Cavalo', 'ativo':True},
+              {'nome':'Diego Brando', 'categoria':'Cavalo', 'ativo':False},
+              {'nome':'Sandman', 'categoria':'as próprias pernas', 'ativo':True}]
 
 def exibir_subtitulo(texto):
     os.system('cls')
